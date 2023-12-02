@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #000;
+}
+
+.mini-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__image {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+}
+
+.nav {
+  margin-right: 20px;
+
+  &__list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    height: 100%;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__link {
+    display: block;
+    height: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+  }
+}

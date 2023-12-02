@@ -1,0 +1,37 @@
+.main {
+  background-color: #121212;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px 0;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+  }
+
+  &__image {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  &__intro {
+    width: 300px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+}
+
+.popular-courses {
+  margin-top: 25px;
+
+  &__text {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
