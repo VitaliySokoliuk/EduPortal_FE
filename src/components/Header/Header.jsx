@@ -28,7 +28,7 @@ export const Header = () => {
             <a href="#" className="nav__link">My marks</a>
           </li>
           <li className="nav__item">
-            <a href="#" className="nav__link">My cabinet</a>
+            <a href="/cabinet" className="nav__link">My cabinet</a>
           </li>
           <li className="nav__item">
             <a href="#" className="nav__link">Sign Out</a>
