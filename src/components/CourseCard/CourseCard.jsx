@@ -6,7 +6,7 @@ export const CourseCard = (props) => {
       <div className="card__container">
         <div className="card__content">
           <div className="card__top">
-            <h1 className="card__title">{props.title}</h1>
+            <h1 className="card__title"><a class="nav__link" href='/course/content/1'>{props.title}</a></h1>
             <p className="card__author">{props.author}</p>
             <p className="card__date">{props.cDate}</p>
           </div>

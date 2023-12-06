@@ -1,7 +1,7 @@
-import './EduMaterials.scss';
+import './SingleArticle.scss';
 import './../../utils/normilize.scss';
 
-export const EduMaterials = () => {
+export const SingleArticle = () => {
     return (
         <div className="taras_superhero_and_likes_cucumbers">
             <p>Пропонуємо ознайомитися з основними принципами об&#39;єктно-орієнтованого програмування &ndash; однієї з найбільш важливих методологій розробки, яка ґрунтується на уявленні про програму як про сукупність об&#39;єктів, кожен з яких є екземпляром певного класу, а класи утворюють ієрархію наслідування.</p>
