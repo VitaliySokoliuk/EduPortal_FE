@@ -19,19 +19,19 @@ export const Header = () => {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="#" className="nav__link">All materials</a>
+            <a href="#" className="nav__link">Всі матеріали</a>
           </li>
           <li className="nav__item">
-            <a href="#" className="nav__link">My materials</a>
+            <a href="#" className="nav__link">Мої матеріали</a>
           </li>
           <li className="nav__item">
-            <a href="#" className="nav__link">My marks</a>
+            <a href="#" className="nav__link">Мої оцінки</a>
           </li>
           <li className="nav__item">
-            <a href="/cabinet" className="nav__link">My cabinet</a>
+            <a href="/cabinet" className="nav__link">Особистий кабінет</a>
           </li>
           <li className="nav__item">
-            <a href="#" className="nav__link">Sign Out</a>
+            <a href="#" className="nav__link">Вийти</a>
           </li>
         </ul>
       </nav>

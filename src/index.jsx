@@ -17,8 +17,11 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from './routes/Home/Home';
-import Cabinet from './routes/Cabinet/Cabinet';
+// import Cabinet from './routes/Cabinet/Cabinet';
+import CreateArticle from './routes/CreateArticle/CreateArticle';
 import ErrorPage from "./routes/errorPage";
+
+const Cabinet = React.lazy(() => import('./routes/Cabinet/Cabinet'))
 
 const router = createBrowserRouter([
   {
@@ -29,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/cabinet",
     element: <Cabinet />,
+  },
+  {
+    path: "/cabinet/createArticle",
+    element: <CreateArticle />,
   },
 ]);
 
