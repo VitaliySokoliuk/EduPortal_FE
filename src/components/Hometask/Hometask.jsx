@@ -14,7 +14,7 @@ export const Hometask = (props) => {
                             <p className="card__description">{props.task_content}</p>
                             <div className="card__tags tags">
                                 <div className="tags__tag"><a class="link" href='#'>Додати відповідь</a></div>
-                                <div className="tags__tag"><a class="link" href='#'>Відповіді студентів</a></div>
+                                <div className="tags__tag"><a class="link" href='/article/5/hometask/1'>Відповіді студентів</a></div>
                                 <div className="tags__tag"><a class="link" href='#'>Редагувати завданя</a></div>
                                 <div className="tags__tag"><a class="link" href='#'>Статистика</a></div>
                             </div>

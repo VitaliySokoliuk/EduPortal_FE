@@ -6,6 +6,7 @@ import CreateArticle from './routes/CreateArticle/CreateArticle';
 import ErrorPage from "./routes/errorPage";
 import CourseContent from "./routes/CourseContent/CourseContent";
 import SingleArticle from "./routes/SingleArticle/SingleArticle";
+import HometaskAnswer from "./routes/HometaskAnswer/HometaskAnswer";
 const Cabinet = React.lazy(() => import('./routes/Cabinet/Cabinet'))
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/article/5",
     element: <SingleArticle />,
+  },
+  {
+    path: "/article/5/hometask/1",
+    element: <HometaskAnswer />,
   },
 ]);
 
